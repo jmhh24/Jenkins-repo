@@ -9,6 +9,7 @@ pipeline {
         stage("test") {
             steps {
                 echo "testing the code"
+                echo "testing scan too"
             }
         }
         stage("deploy") {
